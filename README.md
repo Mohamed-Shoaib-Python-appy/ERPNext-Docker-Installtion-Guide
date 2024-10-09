@@ -170,6 +170,8 @@ press enter, enter, enter
   ```
 
 ### Step 4: Make Your Edits and open ```frappe-bench/apps/zatca``` in terminal and push them to github
-
+```shell
+     bench --site development.localhost install-app zatca
+     ```
 
 # Congratulations We're done!
