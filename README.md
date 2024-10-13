@@ -185,30 +185,30 @@ press enter, enter, enter
 
 ### If you want to create a new site 
 ```shell
-  bench new-site test.localhost
-  ```
+bench new-site test.localhost
+```
 - if you faced 'dotenv' error run this command
   ```shell
   python -m pip install python-dotenv
   ```
 ### If you want to know what is apps installed on your site 
 ```shell
-  bench --site test.localhost list-apps
-  ```
+bench --site test.localhost list-apps
+```
   
 ### To install erpnext and ztca on your site:
 ```shell
-  bench --site test.localhost install-app erpnext
-  bench --site test.localhost install-app zatca
+bench --site test.localhost install-app erpnext
+bench --site test.localhost install-app zatca
 ```
 
 ### Then you need to make this site the default
 ```shell
-  bench use test.localhost
+bench use test.localhost
 ```
 ### Run your site
 ```shell
-  bench start
+bench start
 ```
 
 ### Step 5: Make Your Edits and open ```frappe-bench/apps/zatca``` in terminal and push them to github
