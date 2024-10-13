@@ -16,6 +16,10 @@ Proven Step by Step Guide for ERPNext Installation on Docker
   ```shell
   https://code.visualstudio.com/download
   ```
+- git
+  ```shell
+  https://git-scm.com/downloads
+  ```
 - Install Dev Containers extension in VSCode
 - docker-compose (for Linux/mac)
 - user added to docker group (for Linux/mac)
