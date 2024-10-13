@@ -176,7 +176,32 @@ press enter, enter, enter
   bench set-config developer_mode 1
   ```
 
-### Step 4: Make Your Edits and open ```frappe-bench/apps/zatca``` in terminal and push them to github
+### If you want to create a new site 
+```shell
+  bench new-site test.localhost
+  ```
+### If you want to know what is apps installed on your site 
+```shell
+  bench --site development.localhost list-apps
+  ```
+  
+### To install erpnext and ztca on your site:
+```shell
+  bench --site test.localhost install-app erpnext
+  bench --site test.localhost install-app zatca
+```
+
+### Then you need to make this site the default
+```shell
+  bench use test.localhost
+```
+### Run your site
+```shell
+  bench start
+```
+
+### Step 5: Make Your Edits and open ```frappe-bench/apps/zatca``` in terminal and push them to github
+
 
 
 # Congratulations We're done!
