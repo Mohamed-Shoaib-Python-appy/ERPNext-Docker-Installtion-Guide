@@ -11,7 +11,7 @@ Proven Step by Step Guide for ERPNext Installation on Docker
 - docker
 - vscode
   ```shell
-  [download](https://code.visualstudio.com/download)
+  https://code.visualstudio.com/download
   ```
 - Install Dev Containers extension in VSCode
 - docker-compose (for Linux/mac)
@@ -177,8 +177,6 @@ press enter, enter, enter
   ```
 
 ### Step 4: Make Your Edits and open ```frappe-bench/apps/zatca``` in terminal and push them to github
-```shell
-     bench --site development.localhost install-app zatca
-     ```
+
 
 # Congratulations We're done!
