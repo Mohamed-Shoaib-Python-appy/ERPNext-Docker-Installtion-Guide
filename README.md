@@ -182,7 +182,7 @@ press enter, enter, enter
   ```
 ### If you want to know what is apps installed on your site 
 ```shell
-  bench --site development.localhost list-apps
+  bench --site test.localhost list-apps
   ```
   
 ### To install erpnext and ztca on your site:
