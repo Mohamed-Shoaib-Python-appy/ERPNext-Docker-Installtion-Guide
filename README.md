@@ -3,7 +3,10 @@
 Proven Step by Step Guide for ERPNext Installation on Docker
 
 ## Prequsites:
-- wsl (windows subsystem for linux)  
+- wsl (windows subsystem for linux)
+  ```shell
+  wsl --install
+  ```
 - docker
 - vscode
 - Install Dev Containers extension in VSCode
