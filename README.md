@@ -187,6 +187,10 @@ press enter, enter, enter
 ```shell
   bench new-site test.localhost
   ```
+- if you faced 'dotenv' error run this command
+  ```shell
+  python -m pip install python-dotenv
+  ```
 ### If you want to know what is apps installed on your site 
 ```shell
   bench --site test.localhost list-apps
